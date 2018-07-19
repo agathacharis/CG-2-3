@@ -6,7 +6,17 @@ namespace CG_2_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Enter your first string: ");
+            string stringOne = Console.ReadLine();
+
+            Console.Write("Enter your secondstring: ");
+            string stringTwo = Console.ReadLine();
+
+            Console.Write("Enter your third string: ");
+            string stringThree = Console.ReadLine();
+
+            Console.WriteLine("Here are your three strings: " + stringOne + stringTwo + stringThree);
+            Console.ReadLine();
         }
     }
 }
